@@ -15,3 +15,7 @@
 - `rm` (remove)
     - 파일 삭제
     - `-r` (recursion)(optional) : 폴더 삭제
+- `ctrl/shift + insert`
+    - 복사/붙여넣기
+- `code <file_name>`
+    - VScode로 파일 열기
