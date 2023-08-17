@@ -2,8 +2,11 @@
 # git
 
 ## 버전 관리란?
+
 ""버전관리"" 는 무엇이고 우리는 왜 이것을 알아야 할까?
 버전 관리 시스템은 파일 변화를 시간에 따라 기록했다가 나중에 특정 시점의 버전을 다시 꺼내올 수 있는 시스템이다. 이 책에서는 버전 관리하는 예제로 소프트웨어 소스 코드만 보여주지만, 실제로 거의 모든 컴퓨터 파일의 버전을 관리할 수 있다.
+Linux의 처음 배포 버전이 v0.0.2였기 때문에 첫 버전 이름을 v0.0.2로 하는 경우가 많다.
+git에서는 주로 태그를 달아서 버전을 표시한다.
 
 
 ## 분산 버전 관리 시스템 (DVCS)
@@ -86,3 +89,18 @@ git pull origin master
 
 `<git user id>.github.io` 이름으로 repository를 생성할 경우 해당 주소로 git 프로필 사이트를 생성한다.
 > 웹페이지 스켈레톤 코드는 startbootstrap에서 가져올 수도 있다
+
+## Git GUI 적용 프로그램 (SourceTree)
+
+SourceTree 프로그램을 사용하여 git의 add,commit,push,tag 등의 여러 기능을 GUI환경에서 사용할 수 있다.
+
+## 소프트웨어 개발 단계 버전 용어 정리
+
+Alpha(=Canary) : 완성, 치명적인 버그 가능
+Beta(=Community,무료) : 작은 버그 가능, 치명적인 버그는 없음
+RC(Release Candidate) : 버그 다 잡은 것 같음
+Preview : 미리 보기판
+정식(=GA,=RTM) 오나성 버전 ==> 판매
+Patch 버전
+Update 버전
+
