@@ -75,3 +75,6 @@ console.log('hello')
 | 홍길동 | 서울 |
 | 이순신 | 대전 |
 
+![C](https://img.shields.io/badge/-Welcome_to_my_github-123456?style=social&logo=GitHub&logoColor=black&label=:gyuelgyuel)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gyuelgyuel&theme=dark&exclude_repo=gyuelgyuel.github.io&layout=donut&title_color=00ff00&rank_icon=github&show_icons=true)](https://github.com/gyuelgyuel/github-readme-stats)
